@@ -1,0 +1,35 @@
+VIM on Rails. My dot vim to develop app using Ruby or Ruby on Rails
+
+Usage:
+1. Download to your home directory and rename to .vim/
+2. Create symbolic link to .vim/.vimrc
+% cd ~
+% ln -s .vim/.vimrc .vimrc
+
+
+Plugins:
+1. NERD_tree
+2. rails
+3. SnipMate
+4. surround
+5. endwise
+6. haml
+
+Example:
+% vim example.txt
+
+Shorcuts in command mode:
+1. Press Shift + Tab to toggle NERD_tree
+2. Press i on NERD_tree to open below current file
+3. ctrl+h = left tab
+4. ctrl+j = down tab
+5. ctrl+k = right
+6. ,p = copy from clipboard
+
+Available colorscheme:
+1. railscasts (default)
+2. rdark
+3. golden
+4. twilight
+5. twilight2
+6. vividchalk
