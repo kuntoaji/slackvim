@@ -1,4 +1,4 @@
-VIM on Rails. My dot vim to develop app using Ruby or Ruby on Rails
+My dot vim to develop app using Ruby or Ruby on Rails
 
 Usage:
 1. Download to your home directory and rename to .vim/
@@ -9,11 +9,11 @@ Usage:
 
 Plugins:
 1. NERD_tree
-2. rails
-3. SnipMate
-4. surround
-5. endwise
-6. haml
+2. rails.vim
+3. SnipMate.vim
+4. vim-surround
+5. vim-endwise
+6. haml.vim
 
 Example:
 % vim example.txt

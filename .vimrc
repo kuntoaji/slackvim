@@ -1,5 +1,10 @@
-filetype on  " Automatically detect file types.
 set nocompatible  " We don't want vi compatibility.
+filetype on  " Automatically detect file types.
+
+"load ftplugins and indent files
+filetype plugin on
+filetype indent on
+
 syntax on
 
 set ruler  " Ruler on
