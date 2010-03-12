@@ -27,9 +27,5 @@ Shorcuts in command mode:
 6. ,p = copy from clipboard
 
 Available colorscheme:
-1. railscasts (default)
-2. rdark
-3. golden
-4. twilight
-5. twilight2
-6. vividchalk
+1. http://www.vi-improved.org/color_sampler_pack/
+2. twilight2
