@@ -1,19 +1,10 @@
-My dot vim to develop app using Ruby or Ruby on Rails. Inspired by http://github.com/xinuc/dotvim
+My dot vim to develop application. Inspired by http://github.com/xinuc/dotvim
 
 Usage:
 1. Download to your home directory and rename to .vim/
 2. Create symbolic link to .vim/.vimrc
 % cd ~
 % ln -s .vim/.vimrc .vimrc
-
-
-Plugins:
-1. NERD_tree
-2. rails.vim
-3. SnipMate.vim
-4. vim-surround
-5. vim-endwise
-6. haml.vim
 
 Example:
 % vim example.txt

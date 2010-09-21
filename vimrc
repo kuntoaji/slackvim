@@ -73,7 +73,7 @@ nnoremap <LEADER><SPACE> :let @/=''<CR>
 set wrap linebreak nolist " line wrap
 
 " know where you are
-set number
+"set number
 set showbreak=...
 
 map <S-Tab> :NERDTreeToggle<CR>
