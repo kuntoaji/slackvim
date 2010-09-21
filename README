@@ -1,21 +1,28 @@
-My dot vim to develop application. Inspired by http://github.com/xinuc/dotvim
+My dot vim to develop application. Tested on Linux. Inspired by http://github.com/xinuc/dotvim
 
 Usage:
-1. Download to your home directory and rename to .vim/
-2. Create symbolic link to .vim/.vimrc
-% cd ~
-% ln -s .vim/.vimrc .vimrc
+1. Clone this repo into your home directory either as .vim (linux/mac) or 
+vimfiles (Windows):
+git clone git://github.com/kuntoaji/slackvim.git ~/.vim
+
+2. Then 'cd' into the repo and run this to get the snippets submodule:
+git submodule init
+git submodule update
+
+3. Copy as _vimrc (Windows) in your home directory. In Mac or Linux, the 
+easiest thing to do is create symbolic link:
+% ln -s ~/.vim/vimrc ~/.vimrc
 
 Example:
 % vim example.txt
 
 Shorcuts in command mode:
 1. Press Shift + Tab to toggle NERD_tree
-2. Press i on NERD_tree to open below current file
-3. ctrl+h = left tab
-4. ctrl+j = down tab
-5. ctrl+k = right
-6. ,p = copy from clipboard
+2. ctrl+h = move to left tab
+3. ctrl+j = move to down tab
+4. ctrl+k = move to up tab
+5. ctrl+l = move to right tab
+6. ,p = paste from clipboard
 
 Available colorscheme:
 1. http://www.vi-improved.org/color_sampler_pack/
