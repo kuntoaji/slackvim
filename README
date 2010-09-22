@@ -13,8 +13,8 @@ git submodule update
 easiest thing to do is create symbolic link:
 % ln -s ~/.vim/vimrc ~/.vimrc
 
-Example:
-% vim example.txt
+Example (I love gvim):
+% gvim example.txt
 
 Shorcuts in command mode:
 1. Press Shift + Tab to toggle NERD_tree
@@ -24,6 +24,6 @@ Shorcuts in command mode:
 5. ctrl+l = move to right tab
 6. ,p = paste from clipboard
 
-Available colorscheme:
+Available colorscheme (only work if you use gvim):
 1. http://www.vi-improved.org/color_sampler_pack/
 2. twilight2

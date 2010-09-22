@@ -88,4 +88,6 @@ if has("gui_running")
   set t_Co=256
 
   colorscheme railscasts
+else
+  colorscheme ir_dark
 endif
