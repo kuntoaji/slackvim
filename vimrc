@@ -4,8 +4,11 @@ filetype off
 
 set nocompatible " no vi compatibility
 
-"load pathogen managed plugins
+" load pathogen managed plugins
 call pathogen#runtime_append_all_bundles()
+
+" load pathogen helptags
+call pathogen#helptags()
 
 " load ftplugins and indent files
 filetype plugin on
@@ -46,14 +49,6 @@ set wildmenu " enable ctrl-n and ctrl-p to scroll thru matches
 set wildmode=list:longest " make cmdline tab completion similar to bash
 
 let mapleader = "," " change the <leader> key
-
-" Vim’s horribly broken default regex “handling” 
-" by automatically inserting a \v before any 
-" string you search for.
-" This turns off Vim’s crazy default regex characters
-" and makes searches use normal regexes.
-nnoremap / /\v
-vnoremap / /\v
 
 " deal with case-sensitive when searching
 set ignorecase
