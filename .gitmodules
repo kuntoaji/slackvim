@@ -25,3 +25,6 @@
 [submodule "bundle/vim-rake"]
 	path = bundle/vim-rake
 	url = git://github.com/tpope/vim-rake.git
+[submodule "bundle/csapprox"]
+	path = bundle/csapprox
+	url = git://github.com/godlygeek/csapprox.git
