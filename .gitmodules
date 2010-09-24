@@ -40,3 +40,6 @@
 [submodule "bundle/vim-ruby-sinatra"]
 	path = bundle/vim-ruby-sinatra
 	url = git://github.com/hallison/vim-ruby-sinatra.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = git://github.com/ervandew/supertab.git
