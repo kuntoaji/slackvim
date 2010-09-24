@@ -18,12 +18,10 @@ Example (I love gvim):
 
 Shorcuts in command mode:
 1. Press Shift + Tab to toggle NERD_tree
-2. ctrl+h = move to left tab
-3. ctrl+j = move to down tab
-4. ctrl+k = move to up tab
-5. ctrl+l = move to right tab
-6. ,p = paste from clipboard
+2. Tab navigation: Ctrl+h, Ctrl+j, Ctrl+k, Ctrl+l
+6. ,,p = paste from clipboard
 
-Available colorscheme (only work if you use gvim):
+Available colorscheme:
 1. http://www.vi-improved.org/color_sampler_pack/
 2. twilight2
+3. ir_dark

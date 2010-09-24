@@ -63,7 +63,7 @@ set showmatch " highlights the matching braces|brackets|parens when the cursor i
 set hlsearch " highlight searches
 
 " clear out a search
-nnoremap <LEADER><SPACE> :let @/=''<CR>
+nnoremap <Leader><Space> :let @/=''<CR>
 
 set wrap linebreak nolist " line wrap
 
@@ -76,7 +76,7 @@ map <C-J> <C-W>j
 map <C-K> <C-W>k
 map <C-H> <C-W>h
 map <C-L> <C-W>l
-map <LEADER>p "+gp
+map <Leader><Leader>p "+gp
 
 if has("gui_running")
   "tell the term has 256 colors
