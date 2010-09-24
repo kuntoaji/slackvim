@@ -17,9 +17,10 @@ Example (I love gvim):
 % gvim example.txt
 
 Shorcuts in command mode:
-1. Press Shift + Tab to toggle NERD_tree
-2. Tab navigation: Ctrl+h, Ctrl+j, Ctrl+k, Ctrl+l
-6. ,,p = paste from clipboard
+1. Press Shift + Tab to toggle NERDtree
+2. Window navigation: Ctrl-h, Ctrl-j, Ctrl-k, Ctrl-l
+3. ,,p = paste from clipboard
+4. Ctrl-f = Open FuzzyFinderFile
 
 Available colorscheme:
 1. http://www.vi-improved.org/color_sampler_pack/

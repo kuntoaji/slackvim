@@ -48,7 +48,7 @@ set laststatus=2 " always show the status line (0 = never, 1 = (default) only if
 set wildmenu " enable ctrl-n and ctrl-p to scroll thru matches
 set wildmode=list:longest " make cmdline tab completion similar to bash
 
-let mapleader = "," " change the <leader> key
+let mapleader = "," " change the <Leader> key
 
 " deal with case-sensitive when searching
 set ignorecase
@@ -71,12 +71,20 @@ set wrap linebreak nolist " line wrap
 "set number
 set showbreak=...
 
+" toggle NERDTree
 map <S-Tab> :NERDTreeToggle<CR>
+
+" window navigation
 map <C-J> <C-W>j
 map <C-K> <C-W>k
 map <C-H> <C-W>h
 map <C-L> <C-W>l
+
+" paste from clipboard
 map <Leader><Leader>p "+gp
+
+" open fuzzy finder file
+map <C-T> :FuzzyFinderFile<CR>
 
 if has("gui_running")
   "tell the term has 256 colors
