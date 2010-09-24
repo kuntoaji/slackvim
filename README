@@ -1,28 +1,34 @@
-My dot vim to develop application. Tested on Linux. Inspired by http://github.com/xinuc/dotvim
+README
+=======
+  My dot vim to develop application with gvim or vim. Tested on Linux. Inspired by http://github.com/xinuc/dotvim
 
-Usage:
-1. Clone this repo into your home directory either as .vim (linux/mac) or 
-vimfiles (Windows):
-git clone git://github.com/kuntoaji/slackvim.git ~/.vim
+Dependencies
+------------
+* vim
+* Ruby support for vim (need to run FuzzyFinderFile)
 
-2. Then 'cd' into the repo and run this to get the snippets submodule:
-git submodule init
-git submodule update
+Instalation
+-----------
+1. Clone this repo into your home directory either as .vim (linux/mac) or vimfiles (Windows):
+`git clone git://github.com/kuntoaji/slackvim.git ~/.vim`
 
-3. Copy as _vimrc (Windows) in your home directory. In Mac or Linux, the 
-easiest thing to do is create symbolic link:
-% ln -s ~/.vim/vimrc ~/.vimrc
+2. Then 'cd' into the repo and run git submodule command:
+  <pre>cd ~/.vim
+  git submodule init
+  git submodule update</pre>
+3. Copy as _vimrc (Windows) in your home directory. In Mac or Linux, the easiest thing to do is create symbolic link:
 
-Example (I love gvim):
-% gvim example.txt
+  `% ln -s ~/.vim/vimrc ~/.vimrc`
 
-Shorcuts in command mode:
-1. Press Shift + Tab to toggle NERDtree
-2. Window navigation: Ctrl-h, Ctrl-j, Ctrl-k, Ctrl-l
-3. ,,p = paste from clipboard
-4. Ctrl-f = Open FuzzyFinderFile
+Some shortcuts in command mode
+------------------------------
+* Press Shift + Tab to toggle NERDtree
+* Window navigation: Ctrl-h, Ctrl-j, Ctrl-k, Ctrl-l
+* ,,p = paste from clipboard
+* Ctrl-f = Open FuzzyFinderFile
 
-Available colorscheme:
-1. http://www.vi-improved.org/color_sampler_pack/
-2. twilight2
-3. ir_dark
+Colorscheme
+-----------
+* http://www.vi-improved.org/color_sampler_pack/
+* twilight2
+* ir_dark
