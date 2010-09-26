@@ -5,7 +5,7 @@ README
 Dependencies
 ------------
 * vim
-* Ruby support for vim (need to run FuzzyFinderFile)
+* Ruby support for vim (to run FuzzyFinderFile)
 
 Instalation
 -----------
