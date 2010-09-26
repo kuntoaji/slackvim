@@ -87,16 +87,16 @@ map <Leader><Leader>p "+gp
 map <C-T> :FuzzyFinderFile<CR>
 
 if has("gui_running")
-  "tell the term has 256 colors
-  set t_Co=256
-
   colorscheme railscasts
 else
   " IMPORTANT: Uncomment one of the following lines to force
   " using 256 colors (or 88 colors) if your terminal supports it,
   " but does not automatically use 256 colors by default.
-  set t_Co=256
+  set t_Co=256 "tell the term has 256 colors
   "set t_Co=88
   let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
-  colorscheme ir_dark
+
+  if has("gui_gnome")
+    colorscheme ir_dark
+  endif
 endif
