@@ -55,3 +55,6 @@
 [submodule "bundle/RDoc"]
 	path = bundle/RDoc
 	url = git://github.com/vim-scripts/RDoc.git
+[submodule "bundle/PyInteractive"]
+	path = bundle/PyInteractive
+	url = git://github.com/vim-scripts/PyInteractive.git
