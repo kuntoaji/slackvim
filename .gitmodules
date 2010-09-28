@@ -58,3 +58,6 @@
 [submodule "bundle/PyInteractive"]
 	path = bundle/PyInteractive
 	url = git://github.com/vim-scripts/PyInteractive.git
+[submodule "bundle/python.vim"]
+	path = bundle/python.vim
+	url = git://github.com/vim-scripts/python.vim--Vasiliev.git
