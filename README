@@ -1,14 +1,11 @@
-README
-=======
-  My dot vim to develop application with gvim or vim. Tested on Linux. Inspired by http://github.com/xinuc/dotvim
+# README
+  Personal dot vim that tries to convert vim into IDE. Tested on Linux. Inspired by http://github.com/xinuc/dotvim
 
-Dependencies
-------------
+## Dependencies
 * vim
 * Ruby support for vim (to run FuzzyFinderFile)
 
-Instalation
------------
+## Instalation
 1. Clone this repo into your home directory either as .vim (linux/mac) or vimfiles (Windows):
 `git clone git://github.com/kuntoaji/slackvim.git ~/.vim`
 
@@ -20,19 +17,40 @@ Instalation
 
   `% ln -s ~/.vim/vimrc ~/.vimrc`
 
-Some shortcuts in command mode
-------------------------------
-* Press Shift + Tab to toggle NERDtree
-* Window navigation: Ctrl-h, Ctrl-j, Ctrl-k, Ctrl-l
-* ,,p = paste from clipboard
-* Ctrl-f = Open FuzzyFinderFile
+## Mappings
++-----------------+---------------------------------------------------+
+| key mapping     | Action                                            |
++-----------------+---------------------------------------------------+
+| <Shift-Tab>     | Toggle NERDTree                                   |
++-----------------+---------------------------------------------------+
+| <Ctrl-h>        | Window navigation (left)                          |
++-----------------+---------------------------------------------------+
+| <Ctrl-j>        | Window navigation (down)                          |
++-----------------+---------------------------------------------------+
+| <Ctrl-k>        | Window navigation (up)                            |
++-----------------+---------------------------------------------------+
+| <Ctrl-l>        | Window navigation (right)                         |
++-----------------+---------------------------------------------------+
+| <Ctrl-f>        | Open FuzzyFinderFile                              |
++-----------------+---------------------------------------------------+
+| ,p              | paste from clipboard                              |
++-----------------+---------------------------------------------------+
+| v               | visual select mode                                |
++-----------------+---------------------------------------------------+
+| V               | visual select mode for lines                      |
++-----------------+---------------------------------------------------+
+| <ctrl-v>        | visual select mode for blocks of text             |
++-----------------+---------------------------------------------------+
+| <               | In visual mode shift block to left                |
++-----------------+---------------------------------------------------+
+| >               | In visual mode shift block to right               |
++-----------------+---------------------------------------------------+
+| /               | search                                            |
++-----------------+---------------------------------------------------+
+| :help           | help                                              |
++-----------------+---------------------------------------------------+
 
-Colorscheme
------------
+## Colorscheme
 * http://www.vi-improved.org/color_sampler_pack/
 * twilight2
 * ir_dark
-
-Documentation
--------------
-`:help`

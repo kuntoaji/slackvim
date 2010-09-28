@@ -81,7 +81,7 @@ map <C-H> <C-W>h
 map <C-L> <C-W>l
 
 " paste from clipboard
-map <Leader><Leader>p "+gp
+map <Leader>p "+gp
 
 " open fuzzy finder file
 map <C-T> :FuzzyFinderFile<CR>
