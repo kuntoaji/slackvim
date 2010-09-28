@@ -1,4 +1,5 @@
-# README
+README
+======
   Personal dot vim that tries to convert vim into IDE. Tested on Linux. Inspired by http://github.com/xinuc/dotvim
 
 ## Dependencies
