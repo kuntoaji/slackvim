@@ -86,17 +86,20 @@ map <Leader><Leader>p "+gp
 " open fuzzy finder file
 map <C-T> :FuzzyFinderFile<CR>
 
-if has("gui_running")
-  colorscheme railscasts
-else
+if has('gui') || has("gui_running")
   " IMPORTANT: Uncomment one of the following lines to force
   " using 256 colors (or 88 colors) if your terminal supports it,
   " but does not automatically use 256 colors by default.
   set t_Co=256 "tell the term has 256 colors
   "set t_Co=88
-  let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
+  "let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
+
+  colorscheme railscasts
 
   if has("gui_gnome")
     colorscheme ir_dark
-  endif
+  end
+else
+  let g:CSApprox_loaded = 0 " disable CSApprox when has no gui
+  colorscheme desert
 endif
