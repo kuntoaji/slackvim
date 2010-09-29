@@ -95,10 +95,6 @@ if has('gui') || has("gui_running")
   "let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 
   colorscheme railscasts
-
-  if has("gui_gnome")
-    colorscheme ir_dark
-  end
 else
   let g:CSApprox_loaded = 0 " disable CSApprox when has no gui
   colorscheme desert
