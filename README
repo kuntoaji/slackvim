@@ -1,10 +1,11 @@
 README
 ======
-  Personal dot vim that tries to convert vim into IDE. Tested on Linux. Inspired by http://github.com/xinuc/dotvim
+  Slackvim is a project that tries to convert vim into IDE. Tested on Linux. Inspired by http://github.com/xinuc/dotvim
 
 ## Dependencies
-* vim
-* Ruby support for vim (to run FuzzyFinderFile)
+* Git
+* Vim
+* Ruby support for vim (to run FuzzyFinder)
 
 ## Instalation
 1. Clone this repo into your home directory either as .vim (linux/mac) or vimfiles (Windows):
@@ -55,3 +56,6 @@ README
 * http://www.vi-improved.org/color_sampler_pack/
 * twilight2
 * ir_dark
+
+## More Info
+* http://kuntoaji.blogspot.com/2010/09/slackvim.html
