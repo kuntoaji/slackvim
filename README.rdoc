@@ -1,0 +1,83 @@
+= README
+  Slackvim is a project that tries to convert vim into IDE. Tested on Linux. Inspired by http://github.com/xinuc/dotvim
+
+
+== Dependencies
+
+* Git
+* Vim
+* Ruby support for vim (to run FuzzyFinder)
+
+
+== Installation
+
+1. Clone this repo into your home directory either as .vim (linux/mac) or vimfiles (Windows):
+
+    git clone git://github.com/kuntoaji/slackvim.git ~/.vim
+
+2. Then 'cd' into the repo and run git submodule command:
+
+    cd ~/.vim
+    git submodule init
+    git submodule update
+
+3. Copy as _vimrc (Windows) in your home directory. In Mac or Linux, the easiest thing to do is create symbolic link:
+
+    % ln -s ~/.vim/vimrc ~/.vimrc
+
+== Updating
+
+  cd ~/.vim
+  git submodule update --init
+
+
+== Mappings
+
+  +-----------------+---------------------------------------------------+
+  | key mapping     | Action                                            |
+  +-----------------+---------------------------------------------------+
+  | <Shift-Tab>     | Toggle NERDTree                                   |
+  +-----------------+---------------------------------------------------+
+  | <Ctrl-h>        | Window navigation (left)                          |
+  +-----------------+---------------------------------------------------+
+  | <Ctrl-j>        | Window navigation (down)                          |
+  +-----------------+---------------------------------------------------+
+  | <Ctrl-k>        | Window navigation (up)                            |
+  +-----------------+---------------------------------------------------+
+  | <Ctrl-l>        | Window navigation (right)                         |
+  +-----------------+---------------------------------------------------+
+  | <Ctrl-f>        | Open FuzzyFinderFile                              |
+  +-----------------+---------------------------------------------------+
+  | ,c              | cut to clipboard                                  |
+  +-----------------+---------------------------------------------------+
+  | ,y              | copy to clipboard                                 |
+  +-----------------+---------------------------------------------------+
+  | ,p              | paste from clipboard                              |
+  +-----------------+---------------------------------------------------+
+  | ,a              | select all                                        |
+  +-----------------+---------------------------------------------------+
+  | v               | visual select mode                                |
+  +-----------------+---------------------------------------------------+
+  | V               | visual select mode for lines                      |
+  +-----------------+---------------------------------------------------+
+  | <ctrl-v>        | visual select mode for blocks of text             |
+  +-----------------+---------------------------------------------------+
+  | <               | In visual mode shift block to left                |
+  +-----------------+---------------------------------------------------+
+  | >               | In visual mode shift block to right               |
+  +-----------------+---------------------------------------------------+
+  | /               | search                                            |
+  +-----------------+---------------------------------------------------+
+  | :help           | help                                              |
+  +-----------------+---------------------------------------------------+
+  | :help <plugin>  | help for specific plugin                          |
+  +-----------------+---------------------------------------------------+
+
+
+== Colorscheme
+* http://www.vi-improved.org/color_sampler_pack/
+* twilight2
+* ir_dark
+
+== More Info
+* http://kuntoaji.blogspot.com/2010/09/slackvim.html
