@@ -7,17 +7,21 @@ README
 * Vim
 * Ruby support for vim (to run FuzzyFinder)
 
-## Instalation
+## Installation
 1. Clone this repo into your home directory either as .vim (linux/mac) or vimfiles (Windows):
 `git clone git://github.com/kuntoaji/slackvim.git ~/.vim`
 
 2. Then 'cd' into the repo and run git submodule command:
-  <pre>cd ~/.vim
+  cd ~/.vim
   git submodule init
-  git submodule update</pre>
+  git submodule update
 3. Copy as _vimrc (Windows) in your home directory. In Mac or Linux, the easiest thing to do is create symbolic link:
 
   `% ln -s ~/.vim/vimrc ~/.vimrc`
+
+## Updating
+  cd ~/.vim
+  git submodule update --init
 
 ## Mappings
 +-----------------+---------------------------------------------------+
@@ -35,7 +39,13 @@ README
 +-----------------+---------------------------------------------------+
 | <Ctrl-f>        | Open FuzzyFinderFile                              |
 +-----------------+---------------------------------------------------+
+| ,c              | cut to clipboard                                  |
++-----------------+---------------------------------------------------+
+| ,y              | copy to clipboard                                 |
++-----------------+---------------------------------------------------+
 | ,p              | paste from clipboard                              |
++-----------------+---------------------------------------------------+
+| ,a              | select all                                        |
 +-----------------+---------------------------------------------------+
 | v               | visual select mode                                |
 +-----------------+---------------------------------------------------+
@@ -50,6 +60,8 @@ README
 | /               | search                                            |
 +-----------------+---------------------------------------------------+
 | :help           | help                                              |
++-----------------+---------------------------------------------------+
+| :help <plugin>  | help for specific plugin                          |
 +-----------------+---------------------------------------------------+
 
 ## Colorscheme
