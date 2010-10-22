@@ -80,8 +80,17 @@ map <C-K> <C-W>k
 map <C-H> <C-W>h
 map <C-L> <C-W>l
 
+" cut to clipboard, block with Ctrl+v or Shift-v first
+map <Leader>c "+c
+
+" copy to clipboard, block with Ctrl+v or Shift-v first
+map <Leader>y "+y
+
 " paste from clipboard
-map <Leader>p "+gp
+map <Leader>p "+gp 
+
+" select all
+map <Leader>a ggVG
 
 " open fuzzy finder file
 map <C-T> :FuzzyFinderFile<CR>
