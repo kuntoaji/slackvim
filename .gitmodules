@@ -61,3 +61,6 @@
 [submodule "bundle/python.vim"]
 	path = bundle/python.vim
 	url = git://github.com/vim-scripts/python.vim--Vasiliev.git
+[submodule "bundle/delimitMate"]
+	path = bundle/delimitMate
+	url = git://github.com/Raimondi/delimitMate.git
