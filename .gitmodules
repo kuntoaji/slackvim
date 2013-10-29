@@ -55,12 +55,6 @@
 [submodule "bundle/RDoc"]
 	path = bundle/RDoc
 	url = git://github.com/vim-scripts/RDoc.git
-[submodule "bundle/PyInteractive"]
-	path = bundle/PyInteractive
-	url = git://github.com/vim-scripts/PyInteractive.git
-[submodule "bundle/python.vim"]
-	path = bundle/python.vim
-	url = git://github.com/vim-scripts/python.vim--Vasiliev.git
 [submodule "bundle/delimitMate"]
 	path = bundle/delimitMate
 	url = git://github.com/Raimondi/delimitMate.git
