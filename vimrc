@@ -4,9 +4,15 @@ filetype off
 
 set nocompatible " no vi compatibility
 
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Bundle
+Bundle 'gmarik/vundle'
+Bundle 'vim-ruby/vim-ruby'
+
 " load ftplugins and indent files
-filetype plugin on
-filetype indent on
+filetype plugin indent on
 
 syntax on " syntax highlighting
 

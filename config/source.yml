@@ -1,24 +1,10 @@
 autoload:
-  rubycomplete: https://raw.github.com/vim-ruby/vim-ruby/master/autoload/rubycomplete.vim
+  vundle: https://raw.github.com/gmarik/vundle/master/autoload/vundle.vim
 
-compiler:
-  eruby: https://raw.github.com/vim-ruby/vim-ruby/master/compiler/eruby.vim
-  rake: https://raw.github.com/vim-ruby/vim-ruby/master/compiler/rake.vim
-  rspec: https://raw.github.com/vim-ruby/vim-ruby/master/compiler/rspec.vim
-  ruby: https://raw.github.com/vim-ruby/vim-ruby/master/compiler/ruby.vim
-  rubyunit: https://raw.github.com/vim-ruby/vim-ruby/master/compiler/rubyunit.vim
+autoload/vundle:
+  config: https://raw.github.com/gmarik/vundle/master/autoload/vundle/config.vim
+  installer: https://raw.github.com/gmarik/vundle/master/autoload/vundle/installer.vim
+  scripts: https://raw.github.com/gmarik/vundle/master/autoload/vundle/scripts.vim
 
-ftdetect:
-  ruby: https://raw.github.com/vim-ruby/vim-ruby/master/ftdetect/ruby.vim
-
-ftplugin:
-  eruby: https://raw.github.com/vim-ruby/vim-ruby/master/ftplugin/eruby.vim
-  ruby: https://raw.github.com/vim-ruby/vim-ruby/master/ftplugin/ruby.vim
-
-indent:
-  eruby: https://raw.github.com/vim-ruby/vim-ruby/master/indent/eruby.vim
-  ruby: https://raw.github.com/vim-ruby/vim-ruby/master/indent/ruby.vim
-
-syntax:
-  eruby: https://raw.github.com/vim-ruby/vim-ruby/master/syntax/eruby.vim
-  ruby: https://raw.github.com/vim-ruby/vim-ruby/master/syntax/ruby.vim
+doc:
+  vundle: https://raw.github.com/gmarik/vundle/master/doc/vundle.txt
