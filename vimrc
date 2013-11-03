@@ -125,5 +125,6 @@ if has('gui') || has("gui_running")
   colorscheme railscasts
 else
   let g:CSApprox_loaded = 0 " disable CSApprox when has no gui
-  colorscheme desert
+  set background=dark
+  colorscheme solarized
 endif
