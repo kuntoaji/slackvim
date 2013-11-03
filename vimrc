@@ -4,12 +4,6 @@ filetype off
 
 set nocompatible " no vi compatibility
 
-" load pathogen managed plugins
-call pathogen#runtime_append_all_bundles()
-
-" load pathogen helptags
-call pathogen#helptags()
-
 " load ftplugins and indent files
 filetype plugin on
 filetype indent on
