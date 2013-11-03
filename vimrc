@@ -10,6 +10,25 @@ call vundle#rc()
 " Bundle
 Bundle 'gmarik/vundle'
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'tpope/vim-rails'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'msanders/snipmate.vim'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-endwise'
+Bundle 'godlygeek/csapprox'
+Bundle 'tpope/vim-fugitive'
+Bundle 'ervandew/supertab'
+Bundle 'edsono/vim-matchit'
+Bundle 'Raimondi/delimitMate'
+Bundle 'L9'
+Bundle 'FuzzyFinder'
+Bundle 'pangloss/vim-javascript'
+Bundle 'kchmck/vim-coffee-script'
+
+" Bundle colors
+Bundle 'Colour-Sampler-Pack'
+Bundle 'altercation/vim-colors-solarized'
 
 " load ftplugins and indent files
 filetype plugin indent on
