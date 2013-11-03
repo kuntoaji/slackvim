@@ -1,0 +1,24 @@
+autoload:
+  rubycomplete: https://raw.github.com/vim-ruby/vim-ruby/master/autoload/rubycomplete.vim
+
+compiler:
+  eruby: https://raw.github.com/vim-ruby/vim-ruby/master/compiler/eruby.vim
+  rake: https://raw.github.com/vim-ruby/vim-ruby/master/compiler/rake.vim
+  rspec: https://raw.github.com/vim-ruby/vim-ruby/master/compiler/rspec.vim
+  ruby: https://raw.github.com/vim-ruby/vim-ruby/master/compiler/ruby.vim
+  rubyunit: https://raw.github.com/vim-ruby/vim-ruby/master/compiler/rubyunit.vim
+
+ftdetect:
+  ruby: https://raw.github.com/vim-ruby/vim-ruby/master/ftdetect/ruby.vim
+
+ftplugin:
+  eruby: https://raw.github.com/vim-ruby/vim-ruby/master/ftplugin/eruby.vim
+  ruby: https://raw.github.com/vim-ruby/vim-ruby/master/ftplugin/ruby.vim
+
+indent:
+  eruby: https://raw.github.com/vim-ruby/vim-ruby/master/indent/eruby.vim
+  ruby: https://raw.github.com/vim-ruby/vim-ruby/master/indent/ruby.vim
+
+syntax:
+  eruby: https://raw.github.com/vim-ruby/vim-ruby/master/syntax/eruby.vim
+  ruby: https://raw.github.com/vim-ruby/vim-ruby/master/syntax/ruby.vim
