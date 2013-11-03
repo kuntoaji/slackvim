@@ -26,6 +26,7 @@ Bundle 'L9'
 Bundle 'FuzzyFinder'
 Bundle 'pangloss/vim-javascript'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'depuracao/vim-rdoc'
 
 " Bundle colors
 Bundle 'Colour-Sampler-Pack'
