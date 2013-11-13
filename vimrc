@@ -13,7 +13,8 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
-Bundle 'msanders/snipmate.vim'
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'tomtom/tlib_vim'
 Bundle 'garbas/vim-snipmate'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-endwise'
@@ -31,6 +32,9 @@ Bundle 'depuracao/vim-rdoc'
 " Bundle colors
 Bundle 'Colour-Sampler-Pack'
 Bundle 'altercation/vim-colors-solarized'
+
+" Optional
+Bundle 'honza/vim-snippets'
 
 " load ftplugins and indent files
 filetype plugin indent on
